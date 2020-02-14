@@ -5,9 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\NewFolder\**" />
     <Compile Remove="Views\Departments\**" />
+    <Content Remove="Models\NewFolder\**" />
     <Content Remove="Views\Departments\**" />
+    <EmbeddedResource Remove="Models\NewFolder\**" />
     <EmbeddedResource Remove="Views\Departments\**" />
+    <None Remove="Models\NewFolder\**" />
     <None Remove="Views\Departments\**" />
   </ItemGroup>
 
